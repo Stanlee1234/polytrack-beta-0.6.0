@@ -1,3 +1,7 @@
+window.user = { id: "offline", username: "Offline", cars: [], tracks: [] };
+window.officialTracks = [];
+window.communityTracks = [];
+
 window.addEventListener("unhandledrejection", e => {
   console.warn("Blocked promise rejection:", e.reason);
 });
